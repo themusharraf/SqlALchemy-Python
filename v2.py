@@ -5,7 +5,7 @@ from sqlalchemy.ext.declarative import declarative_base
 engine = create_engine('postgresql://posttest:1@localhost:5432/users', echo=True)
 
 Session = sessionmaker(bind=engine)
-session = Session()
+session = Session() 
 
 Base = declarative_base()
 
