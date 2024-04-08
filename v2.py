@@ -27,4 +27,4 @@ user3 = User(name='John', age=18, address='London')
 
 session.add(user1)
 session.add_all([user2, user3])
-session.commit()
+session.commit() 
