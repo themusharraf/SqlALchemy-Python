@@ -1,6 +1,6 @@
 # SqlAlchemy Python lesson example  
       
-install library  
+install library   
      
 ```
 pip install psycopg2-binary 
